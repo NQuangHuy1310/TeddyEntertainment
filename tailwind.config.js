@@ -9,16 +9,17 @@ export default {
         beVietNam: ['"Be Vietnam Pro"', 'sans-serif']
       },
       colors: {
-        // button
-        ButtonPrimary: '#3395FF',
-        ButtonHover: '#00438C',
-        ButtonInactive: '#FFFFFF33',
-
         // Colors
         primary: '#06aafe',
         error: '#FF6370',
         warning: '#ffc107',
-        success: '#58C27D'
+        success: '#58C27D',
+
+        // Button colors
+        ButtonBlue: '#007bff', // CTA
+        ButtonGreen: '#28a745', // Register, Download,
+        ButtonOrigin: '#ffc107', // Sale
+        ButtonRed: '#dc3545' // Delete, cancel
       },
       backgroundColor: {
         White: '#fff',
