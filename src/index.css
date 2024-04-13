@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply font-beVietNam text-LightPrimary dark:text-DarkPrimary bg-LightBase dark:bg-DarkBase text-base;
+    @apply font-beVietNam;
   }
 }
 
