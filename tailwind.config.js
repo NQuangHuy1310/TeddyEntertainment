@@ -9,27 +9,53 @@ export default {
         beVietNam: ['"Be Vietnam Pro"', 'sans-serif']
       },
       colors: {
-        // Colors
-        primary: '#06aafe',
-        error: '#FF6370',
-        warning: '#ffc107',
-        success: '#58C27D',
+        LightPrimary: '#3498db',
+        LightSecondary: '#7ED4CF',
+        LightSuccess: '#58C27D',
+        LightError: '#f44336',
+        LightWarning: '#ffb74d',
 
-        // Button colors
-        ButtonBlue: '#007bff', // CTA
-        ButtonGreen: '#28a745', // Register, Download,
-        ButtonOrigin: '#ffc107', // Sale
-        ButtonRed: '#dc3545' // Delete, cancel
+        DarkPrimary: '#5e97f6',
+        DarkSecondary: '#3a7359',
+        DarkSuccess: '#5bc0de',
+        DarkError: '#b95940',
+        DarkWarning: '#ff9949',
+
+        Blue50: '#E6F2FF',
+        Blue100: '#B0D6FF',
+        Blue200: '#8AC2FF',
+        Blue300: '#54A6FF',
+        Blue400: '#3395FF',
+        Blue500: '#007AFF',
+        Blue600: '#006FE8',
+        Blue700: '#0057B5',
+        Blue800: '#00438C',
+        Blue900: '#00336B',
+
+        Cyan50: '#EBF7FD',
+        Cyan100: '#BFE6F7',
+        Cyan200: '#A1D9F4',
+        Cyan300: '#76C8EE',
+        Cyan400: '#5BBDEB',
+        Cyan500: '#32ADE6',
+        Cyan600: '#2E9DD1',
+        Cyan700: '#247BA3',
+        Cyan800: '#1C5F7F',
+        Cyan900: '#154961'
+      },
+      textColor: {
+        LightPrimary: '#050505',
+        DarkPrimary: '#E4E6EB',
+
+        Primary: '#75B6FF',
+        Secondary: '#65676B'
       },
       backgroundColor: {
-        White: '#fff',
-        Black: '#000',
+        Light: '#f0f2f5',
+        LightBase: '#fff',
 
-        LightBase: '#F4F4F4',
-        Light: '#FCFCFC',
-
-        DarkBase: '#111315',
-        Dark: '#1A1D1F'
+        Dark: '#18191A',
+        DarkBase: '#242526'
       },
       screens: {
         sm: '375px',
@@ -37,19 +63,6 @@ export default {
         lg: '1024px',
         xl: '1280px',
         wide: '1440px'
-      },
-      textColor: {
-        White: '#fff',
-        Black: '#000',
-
-        // light
-        LightPrimary: '#11142D',
-        LightSecondary: '#808191',
-        LightWhite: '#FCFCFC',
-
-        //dark
-        DarkPrimary: '#EFEFEF',
-        DarkSecondary: '#6F767E'
       }
     }
   },
