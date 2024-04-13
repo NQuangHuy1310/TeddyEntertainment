@@ -21,6 +21,26 @@
     overflow: hidden;
     display: -webkit-box;
   }
+
+  .gradient-blue1 {
+    @apply bg-gradient-to-r from-[#44009B] to-[#2370CA];
+  }
+
+  .gradient-blue2 {
+    @apply bg-gradient-to-r from-[#2B6ED1] to-[#062550];
+  }
+
+  .gradient-blue3 {
+    @apply bg-gradient-to-r from-[#2E335A] to-[#1C1B33];
+  }
+
+  .gradient-light-blue1 {
+    @apply bg-gradient-to-r from-[#176AB1] to-[#CBD8F1];
+  }
+
+  .gradient-light-blue2 {
+    @apply bg-gradient-to-r from-[#B0C5E5] to-[#FFFFFF];
+  }
 }
 
 /* Hidden scroll */
