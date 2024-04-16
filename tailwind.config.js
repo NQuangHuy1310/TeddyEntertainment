@@ -41,14 +41,21 @@ export default {
         Cyan600: '#2E9DD1',
         Cyan700: '#247BA3',
         Cyan800: '#1C5F7F',
-        Cyan900: '#154961'
+        Cyan900: '#154961',
+
+        Disabled: '#f3f3f3',
+        Black: '#333',
+        White: '#fff',
+        InputBorder: '#c4c4c4'
       },
       textColor: {
         LightPrimary: '#050505',
         DarkPrimary: '#E4E6EB',
 
         Primary: '#75B6FF',
-        Secondary: '#65676B'
+        Secondary: '#65676B',
+
+        Disabled: '#A0A0A0'
       },
       backgroundColor: {
         Light: '#f0f2f5',
