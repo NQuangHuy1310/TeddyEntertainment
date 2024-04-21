@@ -70,6 +70,10 @@ export default {
         lg: '1024px',
         xl: '1280px',
         wide: '1440px'
+      },
+      spacing: {
+        headerHeight: '72px',
+        spaceHeader: '20px'
       }
     }
   },

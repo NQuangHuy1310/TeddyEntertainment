@@ -3,7 +3,9 @@ const routes = {
   music: '/music',
   movie: '/movie',
   learn: '/learn',
-  blog: '/blog'
+  blog: '/blog',
+  login: 'login',
+  register: '/register'
 }
 
 export default routes
