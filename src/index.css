@@ -10,18 +10,11 @@
   }
 
   body {
-    @apply font-beVietNam;
+    @apply font-beVietNam text-base text-LightPrimary dark:text-DarkPrimary;
   }
 }
 
 @layer components {
-  .text-overflow {
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    display: -webkit-box;
-  }
-
   .gradient-blue1 {
     @apply bg-gradient-to-r from-[#44009B] to-[#2370CA];
   }
@@ -39,7 +32,11 @@
   }
 
   .gradient-light-blue2 {
-    @apply bg-gradient-to-r from-[#B0C5E5] to-[#FFFFFF];
+    @apply bg-gradient-to-r from-[#b0c5e533] to-[#b0c5e54d];
+  }
+
+  .progress-bar {
+    @apply fixed left-0 right-0 top-headerHeight h-1 origin-[0%] rounded-sm bg-Blue200;
   }
 }
 
@@ -51,5 +48,11 @@
   .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+  }
+  .text-overflow {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
   }
 }
